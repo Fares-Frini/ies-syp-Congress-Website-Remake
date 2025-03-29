@@ -1,0 +1,51 @@
+export const speakers = [
+	{
+		name: "Milos Manic",
+		slug: "milos-manic",
+		imageSmall: { url: "/assets/speakers/milos.jpeg" },
+		title: "IEEE IES President | Professeur au département d'informatique et directeur du VCU Cybersecurity Center à Virginia",
+		enabled: true,
+	},
+	{
+		name: "Yajun Pan",
+		slug: "yajun-pan",
+		imageSmall: { url: "/assets/speakers/ya jun.jpeg" },
+		title: "IEEE IES VP of Membership | Professeur au Dalhousie Université",
+		enabled: true,
+	},
+	{
+		name: "Tripura Pidikiti",
+		slug: "tripura-pidikiti",
+		imageSmall: { url: "/assets/speakers/tripura.jpeg" },
+		title: "IEEE IES SAC Member | IEEE Hyderabad Section Chair | Professeur à RVR and JC College of Engineering",
+		enabled: true,
+	},
+	{
+		name: "Chaturika Wickramasinghe",
+		slug: "chaturika-wickramasinghe",
+		imageSmall: { url: "/assets/speakers/Chaturika Wickramasinghe.jpeg" },
+		title: "IEEE IES YP Committee Chair | Data Scientist",
+		enabled: true,
+	},
+	{
+		name: "Hani Vahedi",
+		slug: "hani-vahedi",
+		imageSmall: { url: "/assets/speakers/Hani Vahedi.jpeg" },
+		title: "Chapter&Joint Chapter Coordinator | Inventeur de PUC5 | professeur à Delft Université des technologies",
+		enabled: true,
+	},
+	{
+		name: "Ala Chalghaf",
+		slug: "ala-chalghaf",
+		imageSmall: { url: "/assets/speakers/Ala_Chalghaf.jpg" },
+		title: "Lead Data Scientist at DeepVolt | Technical Consultant at Oratio Technologies | IES Student Activities Committee Chair",
+		enabled: true,
+	},
+	{
+		name: "Aziz Ben Kbaier",
+		slug: "aziz-ben-kbaier",
+		imageSmall: { url: "/assets/speakers/Aziz_Ben_Kbaier.jpg" },
+		title: "Software Engineer | IES Student Activities Committee Member",
+		enabled: true,
+	},
+];

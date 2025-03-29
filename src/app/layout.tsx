@@ -1,7 +1,9 @@
+import Footer from "@/components/layouts/footer";
+import Header from "@/components/layouts/navbar";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
-import Footer from "@/components/layouts/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,6 +13,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const montserrat = localFont({
+  src: "../../public/fonts/Montserrat.ttf",
+  variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
@@ -26,9 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
       >
-        
+        <Header/>
         {children}
         <Footer/>
       </body>
