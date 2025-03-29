@@ -18,6 +18,8 @@ export function Team() {
   useEffect(() => {
     // Dynamically import the Autoplay plugin
     import("embla-carousel-autoplay").then((module) => {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-expect-error
       setAutoplayPlugin(module.default({ delay: 2000 }));
     });
   }, []);
