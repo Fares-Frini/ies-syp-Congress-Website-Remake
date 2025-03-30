@@ -22,9 +22,12 @@ export function AboutUs({ imageSrc, title, description, width, height, alt, inve
 						<h1 className="mb-4 text-4xl font-bold tracking-tight lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 							About {title}.
 						</h1>
-						<p className="text-justify mb-4 text-lg font-medium lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-							{description}
-						</p>
+							<p
+								className="text-justify mb-4 mx-3 lg:mx-0 text-lg font-normal lg:mb-7 lg:text-start lg:text-xl lg:font-normal"
+								style={{ textAlign: 'justify', textJustify: 'inter-word', wordBreak: 'break-word', whiteSpace: 'normal', display: 'block !important' }}
+							>
+								{description}
+							</p>
 						{showLink && ( // Conditionally render the link div
 							<div>
 								<Link
@@ -63,9 +66,12 @@ export function AboutUs({ imageSrc, title, description, width, height, alt, inve
 						<h1 className="mb-4 text-4xl font-bold tracking-tight lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
                         About {title}.
 						</h1>
-						<p className="text-justify mb-4 text-lg font-medium lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-							{description}
-						</p>
+							<p
+								className="text-justify mb-4 text-lg font-medium lg:mb-7 lg:text-start lg:text-xl lg:font-normal"
+								style={{ textAlign: 'justify', textJustify: 'inter-word', wordBreak: 'break-word', whiteSpace: 'normal', display: 'block !important' }}
+							>
+								{description}
+							</p>
 						{showLink && ( // Conditionally render the link div
 							<div>
 								<Link
