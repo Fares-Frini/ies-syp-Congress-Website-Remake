@@ -1,6 +1,7 @@
 import { aboutUsList } from "../../constants/aboutus";
 import AboutCongress from "./components/aboutCongress";
 import { AboutUs } from "./components/Aboutus";
+import { Collaborators } from "./components/Collaborators";
 import Hero from "./components/Hero";
 import { Memories } from "./components/memories";
 import { PoweredBy } from "./components/PoweredBy";
@@ -28,6 +29,7 @@ export default function Home() {
             <PoweredBy/>
             <Speakers limit={5} />
             <Team/>
+            <Collaborators/>
         </div>
     );
 }
