@@ -20,7 +20,7 @@ export default function Speakers({ limit = 0 }) {
 							return (
 								<Link
 									key={speaker.name}
-									href={`/speakers/${speaker.slug}`}
+/* 									href={`/speakers/${speaker.slug}`} */									href={`/speakers`}
 									className="col-span-1 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 sm:col-span-6 md:col-span-3 lg:col-span-2"
 								>
 									<Image

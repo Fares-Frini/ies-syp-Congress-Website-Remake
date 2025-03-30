@@ -1,7 +1,4 @@
-import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
-import { FaTent } from "react-icons/fa6";
-import { HiOutlineExternalLink } from "react-icons/hi";
 
 import AboutTunisia from "./components/AboutTunsia";
 import Gallerie from "./components/Gallerie";
@@ -35,13 +32,7 @@ export default function Tunisia() {
                     <Button asChild className="col-span-1 sm:col-span-3 bg-[#7D0F24] hover:bg-[#8B1C2D] focus:ring-2 focus:ring-[#7D0F24]/40 px-8 py-6 text-2xl sm:text-3xl rounded-md">
                         <a href="/survival-guide">
                             <FaTent className="h-14 w-14 sm:h-16 sm:w-16" />
-                            <span className="font-bold">Survival Guide</span>
-                        </a>
-                    </Button>
-                    <Button asChild className="col-span-1 sm:col-span-3 bg-[#7D0F24] hover:bg-[#8B1C2D] focus:ring-2 focus:ring-[#7D0F24]/40 px-8 py-6 text-2xl sm:text-3xl rounded-md">
-                        <a href="/about-tunisia">
-                            <HiOutlineExternalLink className="h-14 w-14 sm:h-16 sm:w-16" />
-                            <span className="font-bold">More About Tunisia</span>
+                            <span className="font-bold">Your Guide To Tunisia</span>
                         </a>
                     </Button>
                 </div>

@@ -1,5 +1,5 @@
-import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
 export default function ImportantNotes() {
     const notes = [
         {
@@ -53,7 +53,7 @@ export default function ImportantNotes() {
                             className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-8 py-3 text-center text-base font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800 opacity-50 pointer-events-none"
                             aria-disabled="true"
                         >
-                            <span className="">Register for Congress</span>
+                            <span className="">Registration Will Open Soon</span>
                         </Link>
                     </div>
                 </div>

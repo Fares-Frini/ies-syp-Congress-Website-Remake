@@ -57,6 +57,19 @@
   font-style: normal;
 }
 
+@font-face {  
+  font-family: "Beowulf";
+  src: url("../../public/fonts/BEOWULF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {  
+  font-family: "Funwork";
+  src: url("../../public/fonts/Funwork.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .persian-sword {
   font-family: "Persian Sword", sans-serif;
 }

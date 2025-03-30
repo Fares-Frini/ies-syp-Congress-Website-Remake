@@ -75,7 +75,7 @@ export const team = [
     name: "Maram Bouaziz",
     title: "Sponsorship Team Member",
     slug: "rauchg",
-    image: { url: "/assets/Team/Maram_Bouaziz.png" },
+    image: { url: "/assets/Team/Maram_Bouaziz.jpg" },
   },
   {
     name: "Asma Basly",
@@ -105,7 +105,7 @@ export const team = [
     name: "Jaber soyed",
     title: "Logistics Team Member",
     slug: "rauchg",
-    image: { url: "/assets/Team/Jaber_soyed.jpg" },
+    image: { url: "/assets/Team/oc_boy.png" },
   },
   {
     name: "Mohamed Bouzayani",
@@ -135,7 +135,7 @@ export const team = [
     name: "Elyess Ben Sassi",
     title: "Media and Communication Team Member",
     slug: "rauchg",
-    image: { url: "/assets/Team/Elyess_Ben_Sassi.jpg" },
+    image: { url: "/assets/Team/oc_boy.png" },
   },
   {
     name: "Amina Bayoudh",
@@ -171,6 +171,6 @@ export const team = [
     name: "Oumayma Masmoudi",
     title: "Secretary General",
     slug: "rauchg",
-    image: { url: "/assets/Team/Oumayma_Masmoudi.jpg" },
+    image: { url: "/assets/Team/Oumayma_Masmoudi.png" },
   },
 ];

@@ -25,7 +25,7 @@ export function Team() {
   }, []);
 
   return (
-    <section className="flex flex-col justify-center gap-4 py-10 md:py-20 mx-4 md:mx-32">
+    <section className="Team flex flex-col justify-center gap-4 py-10 md:py-20 mx-4 md:mx-32">
       <div className="mb-8 text-2xl font-bold sm:text-4xl">Meet the Team</div>
 
       <Carousel
@@ -46,7 +46,8 @@ export function Team() {
                 <Card className="p-0">
                   <CardContent className="flex flex-col items-center text-center p-2">
                     <Link
-                      href={`/team/${member.slug}`}
+/*                    href={`/team/${member.slug}`} */
+                      href={`/about-us#Team`}
                       className="flex flex-col items-center text-center"
                     >
                       <Image

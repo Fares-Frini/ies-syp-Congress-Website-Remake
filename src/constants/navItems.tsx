@@ -4,27 +4,29 @@ export const navItems = [
         link: '/'
     },
     {
+        name: 'Speakers',
+        link: '/speakers'
+    },
+    {
         name: 'Tunisia',
         link: '/tunisia'
     },
+    
+    
+    /* {
+        name: 'Agenda',
+        link: '/agenda'
+    }, */
+    /* {
+        name: 'Partners',
+        link: '/partners'
+    }, */
     {
-        name: 'Speakers',
-        link: '/speakers'
+        name: 'Visa',
+        link: '/visa'
     },
     {
         name: 'About us',
         link: '/about-us'
     },
-    {
-        name: 'Agenda',
-        link: '/agenda'
-    },
-    {
-        name: 'Partners',
-        link: '/partners'
-    },
-    {
-        name: 'Contact us',
-        link: '/contact-us'
-    }
 ];

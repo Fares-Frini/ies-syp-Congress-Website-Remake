@@ -9,21 +9,17 @@ export const collaborators = [
 		src: "/assets/Collaborators/enetcom.png",
 		alt: "IEEE Enetcom Student Branch",
 	},
-	{
-		href: "https://insat.ieee.tn/",
-		src: "/assets/Collaborators/insat.png",
-		alt: "IEEE Insat Student Branch",
+    {
+		href: "https://essths.ieee.tn/",
+		src: "/assets/Collaborators/essths.png",
+		alt: "IEEE Essths Student Branch",
 	},
     {
 		href: "https://enit.ieee.tn/",
 		src: "/assets/Collaborators/enit.png",
 		alt: "IEEE Enit Student Branch",
 	},
-    {
-		href: "https://essths.ieee.tn/",
-		src: "/assets/Collaborators/essths.png",
-		alt: "IEEE Essths Student Branch",
-	},
+    
     {
 		href: "https://isims.ieee.tn/",
 		src: "/assets/Collaborators/isims.jpg",

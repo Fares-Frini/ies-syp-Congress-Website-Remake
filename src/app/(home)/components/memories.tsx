@@ -7,7 +7,7 @@ export function Memories() {
 		<Fade>
 			<div className="mx-4 mt-10 md:mx-40">
 				<h2 className="mb-8 text-center text-2xl font-bold md:mb-12 md:text-4xl">
-					Memories from Previous Editions
+					Memories from Previous Edition
 				</h2>
 				<div className="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-3">
 					{imageGalleryItems.map((item, index) => (

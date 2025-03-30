@@ -15,7 +15,7 @@ function AboutCongress() {
 							<TfiWorld
 							className="h-14 w-14 object-contain text-[#7D0F24]"/>
 							<div className="text-2xl font-bold">International Network</div>
-							<p className="text-center">
+							<p className="justify-text text-center">
 							Connect with students, young professionals, academics, and industry leaders worldwide to build meaningful relationships and expand your global professional circle.
 							</p>
 						</div>
@@ -28,7 +28,7 @@ function AboutCongress() {
 								height={56}
 							/>
 							<div className="text-2xl font-bold">Learn</div>
-							<p className="text-center">
+							<p className="justify-text text-center">
 							Engage in keynote speeches, hands-on workshops, and expert-led panels to gain knowledge and develop essential skills in engineering, technology, and leadership.
 							</p>
 						</div>
@@ -41,7 +41,7 @@ function AboutCongress() {
 								height={56}
 							/>
 							<div className="text-2xl font-bold">Grow</div>
-							<p className="text-center">
+							<p className="justify-text text-center">
 							Enhance your career prospects through interactive sessions and collaborative experiences that foster innovation, professional development, and lifelong learning.
 							</p>
 						</div>

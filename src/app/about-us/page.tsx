@@ -9,15 +9,15 @@ export default function Aboutus() {
 		<div>
 			{aboutUsList.map((item, index) => (
                             <About
-                                key={index}
-                                imageSrc={item.imageSrc}
-                                alt={item.alt || `Image for ${item.title}`}
-                                title={item.title}
-                                description={item.description}
-                                width={item.width}
-                                height={item.height}
-                                inverted={index % 2 !== 0} 
-                                showLink={item.showLink ?? false}                />
+                    key={index}
+                    imageSrc={item.imageSrc}
+                    alt={item.alt || `Image for ${item.title}`}
+                    title={item.title}
+                    description={item.description}
+                    width={item.width}
+                    height={item.height}
+                    inverted={index % 2 !== 0}
+                    showLink={item.showLink ?? false} link={item.link}                />
                         ))}
 
 			<Fade triggerOnce>

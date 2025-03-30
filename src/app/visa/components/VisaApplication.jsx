@@ -190,7 +190,7 @@ export default function VisaApplication() {
                             Locate your nearest Tunisian embassy or consulate to begin your visa application process.
                         </p>
                         <Link
-                            href="https://www.diplomatie.gov.tn/en/nc/quick-access/representations-in-the-world/tunisian-representations-abroad/"
+                            href="https://www.diplomatie.gov.tn/diplomatic-corps"
                             target="_blank"
                             rel="noreferrer"
                             className="inline-flex items-center px-6 py-3 bg-[#7D0F24] text-white font-medium rounded-lg transition hover:bg-[#B5172C] focus:outline-none focus:ring-4 focus:ring-[#7D0F24]/50"

@@ -9,18 +9,18 @@ interface AboutUsProps {
 	height: number;
 	alt: string; // Added alt property
 	inverted?: boolean; // New prop to determine layout inversion
-	link?: string; // New prop for link URL
+	link: string; // New prop for link URL
 	showLink: boolean; // New prop to control link visibility
 }
 
-export function AboutUs({ imageSrc, title, description, width, height, alt, inverted, link = "https://ieee.tn/", showLink }: AboutUsProps) {
+export function AboutUs({ imageSrc, title, description, width, height, alt,link, inverted, showLink }: AboutUsProps) {
 	return (
 		<section className="mr-4 ml-4 grid items-center justify-center gap-4 py-4 md:grid-cols-12 md:py-16 sm:mr-35 sm:ml-35">
 			{inverted ? (
 				<>
 					<div className="col-span-6">
 						<h1 className="mb-4 text-4xl font-bold tracking-tight lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-							About {title}.
+							About {title}
 						</h1>
 							<p
 								className="text-justify mb-4 mx-3 lg:mx-0 text-lg font-normal lg:mb-7 lg:text-start lg:text-xl lg:font-normal"
@@ -31,7 +31,7 @@ export function AboutUs({ imageSrc, title, description, width, height, alt, inve
 						{showLink && ( // Conditionally render the link div
 							<div>
 								<Link
-									href={link} // Use the link prop
+									href={link} // Use the link prop or a default value
 									target="_blank"
 									rel="noreferrer"
 									className="relative inline min-w-[100px] sm:min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-4 sm:px-6 py-2 text-center text-xs sm:text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
@@ -64,7 +64,7 @@ export function AboutUs({ imageSrc, title, description, width, height, alt, inve
 					</div>
 					<div className="col-span-6">
 						<h1 className="mb-4 text-4xl font-bold tracking-tight lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-                        About {title}.
+                        About {title}
 						</h1>
 							<p
 								className="text-justify mb-4 mx-3 lg:mx-0 text-lg font-normal lg:mb-7 lg:text-start lg:text-xl lg:font-normal"
@@ -75,7 +75,7 @@ export function AboutUs({ imageSrc, title, description, width, height, alt, inve
 						{showLink && ( // Conditionally render the link div
 							<div>
 								<Link
-									href={link} // Use the link prop
+									href={link || '#'} // Use the link prop or a default value
 									target="_blank"
 									rel="noreferrer"
 									className="relative inline min-w-[100px] sm:min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-4 sm:px-6 py-2 text-center text-xs sm:text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"

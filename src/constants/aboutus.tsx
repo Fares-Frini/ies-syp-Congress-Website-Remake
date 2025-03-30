@@ -6,7 +6,8 @@ export const aboutUsList = [
 			'The IES Student and Young Professional Congress is a premier international gathering that unites students, young professionals, academics, and industry leaders for an immersive three-day experience. This multicultural event is designed to foster learning, networking, and collaboration through a dynamic lineup of keynote speeches, hands-on workshops, interactive sessions, and expert-led panels. Covering a diverse range of topics—including engineering, technology, leadership, and professional development—the congress provides an invaluable platform for knowledge exchange, skill-building, and career growth.',
 		width: 600, // Updated width
 		height: 600, // Updated height
-		alt: 'Image of IES SYP Congress'
+		alt: 'Image of IES SYP Congress',
+		link:''
 	},
 	{
 		imageSrc: '/assets/logos/IEEE IES Logo Color RGB.png', // Replace with the actual image path
@@ -38,7 +39,7 @@ export const aboutUsList = [
 		width: 600,
 		height: 600,
 		alt: 'Image of IES Tunisia Section Chapter',
-		link: 'https://ieee.tn/ies-tunisia-chapter', // Example link
+		link: 'https://ies.ieee.tn/', // Example link
 		showLink: true,
 	},
 ];

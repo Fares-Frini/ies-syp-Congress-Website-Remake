@@ -31,7 +31,7 @@ export default function Footer() {
 					</ul>
 				</div>
 				<a
-					href="https://www.facebook.com/ieee.tsyp"
+					href="https://www.facebook.com/profile.php?id=61557438382350"
 					target="_blank"
 					rel="noreferrer"
 					className="text-gray-600 dark:text-gray-400"
@@ -40,7 +40,7 @@ export default function Footer() {
 					<FaFacebook />
 				</a>
 				<a
-					href="https://www.instagram.com/ieee_tsyp/"
+					href="https://www.instagram.com/ieee.ies.syp_congress_2024/"
 					target="_blank"
 					rel="noreferrer"
 					className="text-gray-600 dark:text-gray-400"
@@ -49,7 +49,7 @@ export default function Footer() {
 					<FaInstagram />
 				</a>
 				<a
-					href="https://www.linkedin.com/company/ieee-tsyp/"
+					href="https://www.linkedin.com/in/ieee-ies-syp-congress-b597812b9/"
 					target="_blank"
 					rel="noreferrer"
 					className="text-gray-600 dark:text-gray-400"

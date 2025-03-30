@@ -6,7 +6,7 @@ export function Collaborators() {
 	return (
 		<Fade>
 			<div className="flex justify-center">
-				<div className="mt-10 mb-15 max-w-7xl px-6 lg:px-8">
+				<div className="mt-10 max-w-7xl px-6 lg:px-8">
 					<h2 className="mb-5 text-center text-4xl font-bold">Collaborators</h2>
 					<div className="flex items-center justify-center">
 						<div className="flex flex-wrap items-center justify-center gap-5 sm:gap-x-10 sm:max-w-xl lg:mx-0 lg:max-w-none">

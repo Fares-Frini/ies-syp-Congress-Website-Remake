@@ -21,15 +21,16 @@ export default function Home() {
                     description={item.description}
                     width={item.width}
                     height={item.height}
-                    inverted={index % 2 !== 0} 
-                    showLink={item.showLink ?? false}                />
+                    inverted={index % 2 !== 0}
+                    showLink={item.showLink ?? false} 
+                    link={item.link}                />
             ))}
             <AboutCongress/>
             <Memories/>
             <PoweredBy/>
+            <Collaborators/>
             <Speakers limit={5} />
             <Team/>
-            <Collaborators/>
         </div>
     );
 }

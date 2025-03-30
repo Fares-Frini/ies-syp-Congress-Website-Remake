@@ -21,8 +21,8 @@ const montserrat = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "IEEE IES SYP 2.0",
-  description: "IEEE IES SYP 2.0",
+  title: "IEEE IES SYP 2025",
+  description: "IEEE IES SYP 2025",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",},
