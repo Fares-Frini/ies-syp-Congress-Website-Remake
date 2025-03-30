@@ -26,7 +26,7 @@ export default function Tunisia() {
                 <Exchange />
                 <FindUs />
             </div>
-            <Fade triggerOnce>
+            {/* <Fade triggerOnce>  ------- Buttons for more information about Tunisia and survival guide -------
             <div className="w-full max-w-4xl mx-auto rounded-lg p-10 text-center">
                 <p className="mb-16 text-2xl font-semibold sm:text-3xl">
                     Discover more about Tunisia and prepare for your journey!
@@ -46,7 +46,7 @@ export default function Tunisia() {
                     </Button>
                 </div>
             </div>
-            </Fade>
+            </Fade> */}
         </section>
     );
 }
