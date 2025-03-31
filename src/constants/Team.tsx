@@ -33,7 +33,7 @@ export const team = [
     name: "Khalil Masmoudi",
     title: "Venue Coordinator",
     slug: "rauchg",
-    image: { url: "/assets/Team/Khalil_Masmoudi.jpg" },
+    image: { url: "/assets/Team/Khalil_Masmoudi.JPG" },
   },
   {
     name: "Mayssa Larguech",
@@ -87,7 +87,7 @@ export const team = [
     name: "Khaldoun Taktak",
     title: "IEEE Funding Co-Chair",
     slug: "rauchg",
-    image: { url: "/assets/Team/Khaldoun_Taktak.jpg" },
+    image: { url: "/assets/Team/Khaldoun_TAKTAK.jpg" },
   },
   {
     name: "Achref Mejri",
@@ -99,7 +99,7 @@ export const team = [
     name: "Yesmine Mejri",
     title: "Logistics Team Member",
     slug: "rauchg",
-    image: { url: "/assets/Team/Yesmine_Mejri.jpg" },
+    image: { url: "/assets/Team/yesmine_mejri.jpg" },
   },
   {
     name: "Jaber soyed",
@@ -129,7 +129,7 @@ export const team = [
     name: "rayen hamdi",
     title: "Media and Communication Team Member",
     slug: "rauchg",
-    image: { url: "/assets/Team/rayen_hamdi.jpg" },
+    image: { url: "/assets/Team/Rayen_Hamdi.jpg" },
   },
   {
     name: "Elyess Ben Sassi",
