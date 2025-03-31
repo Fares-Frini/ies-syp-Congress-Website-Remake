@@ -21,7 +21,7 @@ export const team = [
     name: "Mohamed Rebai",
     title: "Technical Track Chair",
     slug: "rauchg",
-    image: { url: "/assets/Team/Mohamed_Rebai.png" },
+    image: { url: "/assets/Team/Mohamed_REBAI.png" },
   },
   {
     name: "Aziz Chalghaf",
@@ -147,7 +147,7 @@ export const team = [
     name: "Eya Jaoua",
     title: "Media and Communication Team Member",
     slug: "rauchg",
-    image: { url: "/assets/Team/Eya_Jaoua.jpg" },
+    image: { url: "/assets/Team/Eya_jaoua.jpg" },
   },
   {
     name: "Islem Mzoughi",
@@ -171,6 +171,6 @@ export const team = [
     name: "Oumayma Masmoudi",
     title: "Secretary General",
     slug: "rauchg",
-    image: { url: "/assets/Team/Oumayma_Masmoudi.png" },
+    image: { url: "/assets/Team/oumayma_masmoudi.png" },
   },
 ];
