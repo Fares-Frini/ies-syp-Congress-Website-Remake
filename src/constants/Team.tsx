@@ -111,7 +111,7 @@ export const team = [
     name: "Mohamed Bouzayani",
     title: "Logistics Team Member",
     slug: "rauchg",
-    image: { url: "/assets/Team/Mohamed_Bouzayani.jpg" },
+    image: { url: "/assets/Team/Mohamed_BOUZAYANI.jpg" },
   },
   {
     name: "Mohamed Aziz Hbaili",
