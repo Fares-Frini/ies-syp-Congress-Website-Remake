@@ -29,4 +29,8 @@ export const navItems = [
         name: 'About us',
         link: '/about-us'
     },
+    {
+        name: 'Apply for Funding',
+        link: '/apply-for-funding'
+    },
 ];

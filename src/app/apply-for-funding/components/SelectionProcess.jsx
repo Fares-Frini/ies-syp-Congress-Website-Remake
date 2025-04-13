@@ -12,7 +12,7 @@ export default function SelectionProcess() {
         },
         {
             title: "Geographical Representation",
-            description: "Ensuring diversity across regions, sections, and chapters within the IEEE IES community."
+            description: "Ensuring diversity across regions, sections, IES chapters and IES student branch chapters."
         }
     ];
 
@@ -46,15 +46,15 @@ export default function SelectionProcess() {
                             
                             <div className="p-4 bg-[#F8E8EB] rounded-lg border-l-4 border-[#7D0F24] mt-10">
                                 <p className="text-lg">
-                                    <span className="font-bold">Priority Distribution:</span> Priority will be given to ensure a fair representation of each Region through the fund. Subsequently, efforts will be made to have a fair representation of each Section within the Regions and each IES Student Branch Chapter, and IES Chapter. The goal is to achieve comprehensive inclusivity across all levels of the IEEE IES community.
+                                    
+                                     Priority will be given to ensure a fair representation of each Region through the fund. Subsequently, efforts will be made to have a fair representation of each Section within the Regions and each IES Student Branch Chapter, and IES Chapter. The goal is to achieve comprehensive inclusivity across all levels of the IEEE IES community.
                                 </p>
                             </div>
-                            
-                            <div className="text-center mt-8">
-                                <p className="text-lg font-medium">
-                                    Selected applicants will be notified of their approved reimbursement amount upon confirmation of acceptance.
-                                </p>
-                            </div>
+                            <div className="p-4 bg-[#e8f8eb] rounded-lg border-l-4 border-[#359921] mt-10">
+                                <p className="text-lg">
+                                    
+                                Selected applicants will be notified of their approved reimbursement amount upon confirmation of acceptance.                                </p>
+                            </div> 
                         </div>
                     </div>
                 </div>

@@ -33,7 +33,7 @@ export default function ContactInformation() {
                         Contact Information
                     </h2>
                     <p className="text-center mb-12 text-lg">
-                        For inquiries about funding opportunities, please contact:
+                        For inquiries please contact :
                     </p>
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -63,12 +63,31 @@ export default function ContactInformation() {
                         ))}
                     </div>
                     
-                    <div className="p-4 bg-gray-100 rounded-lg">
+                    {/* <div className="p-4 bg-gray-100 rounded-lg">
                         <p className="text-center text-lg font-medium">
                             Note: The application deadline is <span className="text-[#7D0F24] font-bold">30 April 2025</span>. Please ensure you submit all required documents before this date.
                         </p>
-                    </div>
+                    </div> */}
+
                 </div>
+                <div className="mb-8 text-center">
+                        <span className="text-lg font-semibold sm:text-xl inline-block px-4 py-1 bg-[#7D0F24]/10 text-[#7D0F24] rounded-full">
+                            Application Deadline: 30 April 2025
+                        </span>
+                    </div>
+                <div className="mt-8 flex justify-center">
+                        <Link
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScyohCLXsI2rxEX-YRnmYIV5aXRDv_WyQhL4JdMzzNJLyzLQA/viewform"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="relative inline-flex items-center justify-center rounded-full border-2 border-[#7D0F24] bg-[#7D0F24] px-8 py-3 text-center text-base font-medium text-white transition hover:bg-[#B5172C] focus:outline-none focus:ring-4 focus:ring-[#7D0F24]/50 shadow-md"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                            </svg>
+                            Apply for Funding
+                        </Link>
+                    </div>
             </div>
         </Fade>
     );

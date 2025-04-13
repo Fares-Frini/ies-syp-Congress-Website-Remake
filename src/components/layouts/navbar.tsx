@@ -39,7 +39,11 @@ export default function Header() {
 									<Link
 										key={index}
 										href={item.link}
-										className="text-foreground hover:text-gray-800 duration-200  text-xl"
+										className={`text-foreground duration-200 text-xl ${
+											item.name === 'Apply for Funding'
+												? 'bg-[#7D0F24] text-white px-4 py-2 rounded-md hover:bg-[#B5172C] font-medium'
+												: 'hover:text-gray-800'
+										}`}
 									>
 										{item.name}
 									</Link>
@@ -49,17 +53,21 @@ export default function Header() {
 					</DrawerContent>
 				</Drawer>
 			</div>
-			<div className="hidden items-center gap-10 lg:flex mr-10">
-					{navItems.map((item, index) => (
-						<Link
-							key={index}
-							href={item.link}
-							className="text-gray-500 hover:text-black text-xl"
-						>
-							{item.name}
-						</Link>
-					))}
-				</div>
+			<div className="hidden items-center gap-6 lg:flex mr-10">
+				{navItems.map((item, index) => (
+					<Link
+						key={index}
+						href={item.link}
+						className={
+							item.name === 'Apply for Funding'
+								? 'inline-flex items-center justify-center rounded-md bg-[#7D0F24] px-4 py-2 text-sm font-medium text-white shadow-md hover:bg-[#B5172C] transition-all duration-200'
+								: 'text-gray-500 hover:text-black text-xl'
+						}
+					>
+						{item.name}
+					</Link>
+				))}
+			</div>
 		</div>
 	);
 }

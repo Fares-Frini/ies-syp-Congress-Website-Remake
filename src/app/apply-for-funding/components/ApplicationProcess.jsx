@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function ApplicationProcess() {
     const eligibilityCriteria = [
-        "Be an active IEEE IES member at the time of application.",
+        "Be an active IEEE IES member",
         "IEEE membership grade: Students, Graduate Students, or higher grade members who are Young Professionals (YP: Individuals within 15 years of their most recent diploma).",
         "Participate in all official congress activities, including but not limited to, workshops, panels, and networking events.",
         "Provide all required supporting documents, including but not limited to, an updated CV and endorsement letters.",
@@ -26,11 +26,19 @@ export default function ApplicationProcess() {
             title: "Endorsement Letters", 
             description: "From applicable sources:",
             icon: "/assets/icons/endorsement.jpg",
-            subItems: [
-                "IES Student Branch Chapter Advisor and/or Chair",
-                "Student Branch Counselor and/or Chair",
-                "Section Representative (which may include the Section Chair or an IES Section Chapter Officer)"
-            ]
+            subItems: {
+                students: [
+                    "IES Student Branch Chapter (SBC) advisor and/or",
+                    "IES SBC Chair or representative and/or",
+                    "Student Branch (SB) counselor or representative and/or",
+                    "IES Section Chapter Chair or representative and/or",
+                    "Section Chair or representative"
+                ],
+                youngProfessionals: [
+                    "IEEE IES Section Chapter Chair or representative and/or",
+                    "Section Chair or representative"
+                ]
+            }
         }
     ];
 
@@ -120,11 +128,11 @@ export default function ApplicationProcess() {
                         <div className="p-6">
                             <div className="border-l-4 border-[#7D0F24] pl-4 py-2 bg-gray-50 mb-6">
                                 <p className="text-lg">
-                                    Applicants must submit the following documents through the official Google Form:
+                                    Applicants must submit the following:
                                 </p>
                             </div>
                             
-                            <div className="space-y-6 bg-gray-50 p-4 rounded-lg">
+                            <div className="space-y-8 bg-gray-50 p-6 rounded-lg">
                                 {requiredDocuments.map((doc, index) => (
                                     <div key={index} className="flex">
                                         <div className="flex-shrink-0 mr-4">
@@ -146,13 +154,50 @@ export default function ApplicationProcess() {
                                                 <h3 className="text-xl font-semibold text-[#7D0F24]">{doc.title}</h3>
                                             </div>
                                             <p className="text-gray-700 mb-2 pl-2 border-l border-gray-200">{doc.description}</p>
-                                            {doc.subItems && (
-                                                <div className="bg-white p-3 rounded-md mt-2 shadow-sm">
-                                                    <ul className="list-disc pl-5 text-sm text-gray-600 space-y-1">
-                                                        {doc.subItems.map((item, i) => (
-                                                            <li key={i}>{item}</li>
-                                                        ))}
-                                                    </ul>
+                                            {doc.subItems && doc.title === "Endorsement Letters" && (
+                                                <div className="bg-white p-5 rounded-md mt-4 shadow-md w-full">
+                                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                                        {doc.subItems.students && (
+                                                            <div className="bg-gray-50 p-4 rounded-lg border-l-3 border-[#7D0F24] hover:shadow-sm transition duration-300">
+                                                                <h4 className="font-bold text-[#7D0F24] text-lg mb-3 flex items-center">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                                                    </svg>
+                                                                    For Students:
+                                                                </h4>
+                                                                <ul className="list-none space-y-2">
+                                                                    {doc.subItems.students.map((item, i) => (
+                                                                        <li key={i} className="flex items-start">
+                                                                            <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 mt-0.5 bg-[#7D0F24] text-white rounded-full text-xs">
+                                                                                {i + 1}
+                                                                            </span>
+                                                                            <span className="text-gray-700">{item}</span>
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                            </div>
+                                                        )}
+                                                        {doc.subItems.youngProfessionals && (
+                                                            <div className="bg-gray-50 p-4 rounded-lg border-l-3 border-[#7D0F24] hover:shadow-sm transition duration-300">
+                                                                <h4 className="font-bold text-[#7D0F24] text-lg mb-3 flex items-center">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                                                    </svg>
+                                                                    For Young Professionals:
+                                                                </h4>
+                                                                <ul className="list-none space-y-2">
+                                                                    {doc.subItems.youngProfessionals.map((item, i) => (
+                                                                        <li key={i} className="flex items-start">
+                                                                            <span className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 mr-2 mt-0.5 bg-[#7D0F24] text-white rounded-full text-xs">
+                                                                                {i + 1}
+                                                                            </span>
+                                                                            <span className="text-gray-700">{item}</span>
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                            </div>
+                                                        )}
+                                                    </div>
                                                 </div>
                                             )}
                                         </div>
